@@ -1,65 +1,89 @@
 body {
-  background-color: aliceblue;
-  
+    background-color: aliceblue;
 }
 
 .App {
-  font-size: xx-large;
-}
-.todolist {
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 80px;
-  background-color: rgba(110, 110, 247, 0.116);
-  text-align: center;
-}
-.content{
-  margin-left: 15vh;
+    font-size: xx-large;
 }
 
-.additem{
-  padding-top: 40px;
-  font-size: 30px;
-  margin-bottom: -30px;
+.todolist {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 80px;
+    background-color: rgba(110, 110, 247, 0.116);
+    text-align: center;
+}
+
+.content {
+    margin-left: 15vh;
+}
+
+.additem {
+    padding-top: 40px;
+    font-size: 30px;
+    margin-bottom: -30px;
 }
 
 #takeinput {
-  font-size: xx-large;
+    font-size: xx-large;
 }
 
 button {
-  margin-left: 20px;
-  padding: 0 3vh 0 3vh;
-  font-size: xx-large;
+    margin-left: 20px;
+    padding: 0 3vh 0 3vh;
+    font-size: xx-large;
 }
 
-@media(max-width: 768px) {
-  body{
-    flex-direction: column;
-  }
-
-  .todolist {
-    font-size: 50px;
-    background-color: rgba(110, 110, 247, 0.116);
-  }
-
-  .additem{
-    margin-left: 0px;
-    padding-top: 40px;
-    font-size: 20px;
-    margin-bottom: -30px;
-  }
-
-  .content{
-    margin-left: 5vh;
-  }
-
-  #takeinput {
-    font-size: 24px;
-  }
-
-  button {
-    margin-left: 10px;
-    padding: 2px 1vh 2px 1vh;
-    font-size: 24px;
-  }
+@media(max-width: 375px) {
+    body {
+        flex-direction: column;
+    }
+    .todolist {
+        font-size: 30px;
+        background-color: rgba(110, 110, 247, 0.116);
+    }
+    .additem {
+        margin-left: 0px;
+        padding-top: 40px;
+        font-size: 20px;
+        margin-bottom: -50px;
+    }
+    .content {
+        margin-left: 5vh;
+    }
+    #takeinput {
+        font-size: 14px;
+    }
+    button {
+        margin-left: 5px;
+        padding: 1px 1vh 1px 1vh;
+        font-size: 14px;
+    }
 }
+
+
+/* @media(max-width: 768px) {
+    body {
+        flex-direction: column;
+    }
+    .todolist {
+        font-size: 50px;
+        background-color: rgba(110, 110, 247, 0.116);
+    }
+    .additem {
+        margin-left: 0px;
+        padding-top: 40px;
+        font-size: 20px;
+        margin-bottom: -30px;
+    }
+    .content {
+        margin-left: 5vh;
+    }
+    #takeinput {
+        font-size: 24px;
+    }
+    button {
+        margin-left: 10px;
+        padding: 2px 1vh 2px 1vh;
+        font-size: 24px;
+    }
+} */
