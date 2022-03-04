@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import deleteIcon from "./trashIcon.png";
+import deleteIcon from "./trashCompressed.png";
 const getDatafromLS = () => {
   const data = localStorage.getItem("NamesList");
   if (data) {
@@ -94,7 +94,7 @@ export const Todoform = () => {
                           >
                             <img
                               src={deleteIcon}
-                              alt="myIMG"
+                              alt="Delete"
                               className="h-5 hover:h-6"
                             />
                           </button>
