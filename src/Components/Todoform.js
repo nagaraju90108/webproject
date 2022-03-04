@@ -38,7 +38,7 @@ export const Todoform = () => {
   }, [namesList]);
 
   return (
-    <div className="App flex h-screen bg-rose-50">
+    <div className="App flex min-h-screen bg-rose-50 bg-fixed">
       <div className="flex-1 text-center">
         <div className="tracking-widest uppercase todolist py-2 font-serif text-4xl bg-rose-500 text-center text-white sm:text-5xl sm:py-4">
           ToDo List
